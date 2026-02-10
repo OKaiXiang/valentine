@@ -147,3 +147,47 @@ p {
 #open-message {
   margin-top: -8px; /* lift button slightly */
 }
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .letter-window {
+    width: 95vw;
+    padding-top: 140px;
+    transform: scale(1);
+  }
+
+  .cat {
+    width: 180px;
+  }
+
+  .letter-window.final .cat {
+    width: 150px;
+  }
+
+  .btn {
+    width: 90px;
+  }
+
+  .static-message {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .pixel-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  #envelope {
+    width: 150px;
+  }
+}
