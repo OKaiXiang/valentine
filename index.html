@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Letter for You ♡</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title">Will you be my Valentine?</h1>
+
+        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+
+        <div class="buttons" id="letter-buttons">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>Valentine Date:</strong> Church's x Texas Chicken across 15,000km
+        </p>
+
+        <!-- Hidden until YES is clicked -->
+        <button
+          id="open-message"
+          class="pixel-btn"
+          type="button"
+          style="display: none"
+        >
+          View Message 💌
+        </button>
+      </div>
+    </div>
+
+    <!-- Message Screen -->
+    <div id="message-container">
+      <div class="letter-window message-window">
+        <h1>To Tara Natalia From Ong Kai Xiang</h1>
+
+        <p class="static-message">
+          Dear Tara 💖<br />
+          I just wanted you to know how grateful I am for you.
+          Thank you for choosing me, for your love, patience,
+          and for making my life more meaningful just by being you.
+          I know things have been challenging and uncertain lately,
+          and I don't always show up in the ways you want me to, but
+          please know that my feelings for you are genuine and deep.
+          You mean the world to me, you make my life more fulfilling
+          and joyful, and I feel so incredibly lucky to have you in my life.
+          I want to keep growing together with you, keep learning how to support each other,
+          and keep facing whatever uncertainty life may throw at us
+          in the future together. 
+          Happy Valentine’s Day my love 💕 <br />
+          ~ Ong Kai Xiang
+
+
+        </p>
+
+        <div class="message-actions">
+          <button id="back-to-letter" class="pixel-btn" type="button">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
